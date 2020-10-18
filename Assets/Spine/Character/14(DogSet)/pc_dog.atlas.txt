@@ -1,0 +1,40 @@
+
+pc_dog.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_dog_animation(1920x1080)
+  rotate: false
+  xy: 467, 88
+  size: 113, 39
+  orig: 113, 39
+  offset: 0, 0
+  index: -1
+pc_dog_body(1920x1080)
+  rotate: true
+  xy: 2, 34
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1
+pc_dog_face_1_(1920x1080)
+  rotate: false
+  xy: 279, 129
+  size: 186, 125
+  orig: 186, 126
+  offset: 0, 1
+  index: -1
+pc_dog_face_2_(1920x1080)
+  rotate: false
+  xy: 279, 2
+  size: 186, 125
+  orig: 186, 126
+  offset: 0, 1
+  index: -1
+pc_dog_face_3_(1920x1080)
+  rotate: false
+  xy: 467, 129
+  size: 186, 125
+  orig: 186, 126
+  offset: 0, 1
+  index: -1

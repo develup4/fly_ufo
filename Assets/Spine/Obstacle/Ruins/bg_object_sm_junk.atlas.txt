@@ -1,0 +1,103 @@
+
+bg_object_sm_junk.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_object_sm_junk_1
+  rotate: false
+  xy: 2, 113
+  size: 153, 138
+  orig: 154, 141
+  offset: 1, 1
+  index: -1
+bg_object_sm_junk_10
+  rotate: true
+  xy: 108, 2
+  size: 42, 50
+  orig: 42, 51
+  offset: 0, 0
+  index: -1
+bg_object_sm_junk_11
+  rotate: false
+  xy: 398, 134
+  size: 40, 40
+  orig: 41, 41
+  offset: 1, 1
+  index: -1
+bg_object_sm_junk_12
+  rotate: false
+  xy: 440, 146
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+bg_object_sm_junk_13
+  rotate: false
+  xy: 354, 120
+  size: 42, 44
+  orig: 43, 46
+  offset: 0, 1
+  index: -1
+bg_object_sm_junk_15
+  rotate: false
+  xy: 108, 46
+  size: 65, 65
+  orig: 66, 65
+  offset: 1, 0
+  index: -1
+bg_object_sm_junk_2
+  rotate: true
+  xy: 157, 137
+  size: 114, 140
+  orig: 115, 140
+  offset: 0, 0
+  index: -1
+bg_object_sm_junk_3
+  rotate: false
+  xy: 299, 166
+  size: 77, 85
+  orig: 77, 85
+  offset: 0, 0
+  index: -1
+bg_object_sm_junk_4
+  rotate: true
+  xy: 449, 181
+  size: 70, 53
+  orig: 70, 54
+  offset: 0, 1
+  index: -1
+bg_object_sm_junk_5
+  rotate: false
+  xy: 2, 14
+  size: 104, 97
+  orig: 105, 99
+  offset: 0, 2
+  index: -1
+bg_object_sm_junk_6
+  rotate: false
+  xy: 299, 114
+  size: 53, 50
+  orig: 54, 51
+  offset: 0, 1
+  index: -1
+bg_object_sm_junk_7
+  rotate: false
+  xy: 160, 10
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+bg_object_sm_junk_8
+  rotate: true
+  xy: 398, 106
+  size: 26, 33
+  orig: 27, 33
+  offset: 1, 0
+  index: -1
+bg_object_sm_junk_9
+  rotate: false
+  xy: 378, 176
+  size: 69, 75
+  orig: 72, 76
+  offset: 3, 1
+  index: -1

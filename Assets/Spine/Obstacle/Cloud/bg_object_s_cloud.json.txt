@@ -1,0 +1,39 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bg_object_s_cloud", "bone": "root", "attachment": "bg_object_s_cloud" }
+],
+"skins": {
+	"default": {
+		"bg_object_s_cloud": {
+			"bg_object_s_cloud": { "width": 450, "height": 282 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"animation": {
+		"bones": {
+			"root": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.42, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.05,
+						"y": 1.05,
+						"curve": [ 0.25, 0, 1, 0.56 ]
+					},
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

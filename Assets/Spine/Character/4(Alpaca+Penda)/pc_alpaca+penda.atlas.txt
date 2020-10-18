@@ -1,0 +1,61 @@
+
+pc_alpaca+penda.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_alpaca_face_1_(1920x1080)
+  rotate: false
+  xy: 516, 108
+  size: 144, 138
+  orig: 144, 138
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_2_(1920x1080)
+  rotate: false
+  xy: 224, 107
+  size: 144, 139
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_3_(1920x1080)
+  rotate: false
+  xy: 370, 107
+  size: 144, 139
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+pc_panda_animation(1920x1080)_1_1
+  rotate: true
+  xy: 224, 60
+  size: 45, 116
+  orig: 45, 116
+  offset: 0, 0
+  index: -1
+pc_panda_animation(1920x1080)_1_2
+  rotate: true
+  xy: 342, 63
+  size: 42, 76
+  orig: 45, 76
+  offset: 0, 0
+  index: -1
+pc_panda_animation(1920x1080)_2_1
+  rotate: false
+  xy: 662, 130
+  size: 45, 116
+  orig: 45, 116
+  offset: 0, 0
+  index: -1
+pc_panda_animation(1920x1080)_2_2
+  rotate: true
+  xy: 224, 14
+  size: 44, 76
+  orig: 45, 76
+  offset: 1, 0
+  index: -1
+pc_panda_body_2_(1920x1080)
+  rotate: false
+  xy: 2, 2
+  size: 220, 244
+  orig: 220, 275
+  offset: 0, 0
+  index: -1

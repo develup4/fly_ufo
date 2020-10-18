@@ -1,0 +1,38 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "life_bar_point_2", "bone": "root", "color": "ffffff00", "attachment": "life_bar_cursor_2" },
+	{ "name": "root", "bone": "root", "attachment": "life_bar_cursor_1" }
+],
+"skins": {
+	"default": {
+		"life_bar_point_2": {
+			"life_bar_cursor_2": { "width": 35, "height": 10 }
+		},
+		"root": {
+			"life_bar_cursor_1": { "width": 35, "height": 10 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"bar_point_glow": {
+		"slots": {
+			"root": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"life_bar_point_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.4166, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,47 @@
+
+pc_owl+cat.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_cat_animation_1_(1920x1080)
+  rotate: false
+  xy: 279, 40
+  size: 220, 50
+  orig: 220, 51
+  offset: 0, 1
+  index: -1
+pc_cat_animation_2_(1920x1080)
+  rotate: false
+  xy: 777, 172
+  size: 220, 50
+  orig: 220, 51
+  offset: 0, 1
+  index: -1
+pc_cat_body_1_(1920x1080)
+  rotate: true
+  xy: 2, 2
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1
+pc_owl_face_1_(1920x1080)
+  rotate: false
+  xy: 279, 92
+  size: 164, 130
+  orig: 164, 130
+  offset: 0, 0
+  index: -1
+pc_owl_face_2_(1920x1080)
+  rotate: false
+  xy: 445, 92
+  size: 164, 130
+  orig: 164, 130
+  offset: 0, 0
+  index: -1
+pc_owl_face_3_(1920x1080)
+  rotate: false
+  xy: 611, 92
+  size: 164, 130
+  orig: 164, 130
+  offset: 0, 0
+  index: -1

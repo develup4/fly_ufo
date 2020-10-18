@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5DB381EF-8B74-54EA-642D-C47F9E56D399}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FlightReady.js" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.0.8 f7.txt" />
+     <None Include="Assets\Spine\Item\BigSilverCoin\item_money_special_1.json.txt" />
+     <None Include="Assets\Spine\UI\BoostButtonLeft\ingame_ui_inputkey_left.atlas.txt" />
+     <None Include="Assets\Spine\Obstacle\AirBalloon\bg_object_sm_airballoon.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Plane\bg_object_m_plane.json.txt" />
+     <None Include="Assets\Spine\UI\Fever\O\item_fever_o.json.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (SoftClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\spine-unity\Assets\examples\goblins\data\goblins.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Releases Notes.txt" />
+     <None Include="Assets\Spine\UI\Fever\S\item_fever_s.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
+     <None Include="Assets\Spine\UI\BoostButtonLeft\ingame_ui_inputkey_left.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Spine\Item\GoldCoin\item_money_basic_3.atlas.txt" />
+     <None Include="Assets\Spine\Title\titledisplay.atlas.txt" />
+     <None Include="Assets\Spine\Obstacle\SmallPlanet\bg_object_s_planet.json.txt" />
+     <None Include="Assets\Spine\Obstacle\SmallPlanet\bg_object_s_planet.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Spine\Obstacle\Ruins\bg_object_sm_junk.json.txt" />
+     <None Include="Assets\Resources\Texture\InGameUI\LeftButton\ingame_ui_inputkey_left.json.txt" />
+     <None Include="Assets\Spine\Title\titledisplay.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Meteor\bg_object_m_meteor.json.txt" />
+     <None Include="Assets\Spine\Item\BigGoldCoin\item_money_special_2.atlas.txt" />
+     <None Include="Assets\Spine\Logo\logodisplay.json.txt" />
+     <None Include="Assets\Spine\UI\Fever\N\fever_bonus_n.json.txt" />
+     <None Include="Assets\Spine\Effect\FeverEffect\flower.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Spine\UI\Fever\U\item_fever_u.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
+     <None Include="Assets\Spine\Obstacle\Ruins\bg_object_sm_junk.atlas.txt" />
+     <None Include="Assets\Spine\StartingPoint\Launcher\skeleton.atlas.txt" />
+     <None Include="Assets\Spine\Engine\pc_engine_red.json.txt" />
+     <None Include="Assets\Spine\Obstacle\BigPlanet\bg_object_m_planet.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Plane\bg_object_m_plane.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\Spine\Item\BronzeCoin\item_moeny_basic_1.json.txt" />
+     <None Include="Assets\spine-unity\Assets\examples\spineboy\data\spineboy.json.txt" />
+     <None Include="Assets\Spine\StartingPoint\Launcher\skeleton.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Spine\UI\BoostButtonRight\ingame_ui_inputkey_right.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Meteor\bg_object_m_meteor.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Spine\Logo\logodisplay.atlas.txt" />
+     <None Include="Assets\Spine\Effect\FeverEffect\flower.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Spine\StartingPoint\CountDown\skeleton.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Spine\StartingPoint\CountDown\skeleton.atlas.txt" />
+     <None Include="Assets\Spine\Character\Alpaca\skeleton.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Cloud\bg_object_s_cloud.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Spine\Obstacle\BigPlanet\bg_object_m_planet.atlas.txt" />
+     <None Include="Assets\Spine\Obstacle\AirBalloon\bg_object_sm_airballoon.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\U\item_fever_u.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Spine\UI\Fever\O\item_fever_o.atlas.txt" />
+     <None Include="Assets\spine-unity\Assets\examples\dragon\data\dragon.json.txt" />
+     <None Include="Assets\Spine\UI\BoostButtonRight\ingame_ui_inputkey_right.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\spine-unity\Assets\Spine\Shaders\Skeleton.shader" />
+     <None Include="Assets\Spine\Item\SilverCoin\item_money_basic_2.json.txt" />
+     <None Include="Assets\Spine\UI\Fever\B\fever_bonus_b.json.txt" />
+     <None Include="Assets\Spine\Item\BigGoldCoin\item_money_special_2.json.txt" />
+     <None Include="Assets\spine-unity\Assets\examples\spineboy\data\spineboy.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\B\fever_bonus_b.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\Spine\Character\Alpaca\skeleton.atlas.txt" />
+     <None Include="Assets\Spine\Item\BigSilverCoin\item_money_special_1.atlas.txt" />
+     <None Include="Assets\Spine\Item\BronzeCoin\item_moeny_basic_1.atlas.txt" />
+     <None Include="Assets\Spine\UI\HP_Bar\life_bar_cursor.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Resources\Texture\InGameUI\RightButton\ingame_ui_inputkey_right.atlas.txt" />
+     <None Include="Assets\Resources\Texture\InGameUI\LeftButton\ingame_ui_inputkey_left.atlas.txt" />
+     <None Include="Assets\Spine\Item\GoldCoin\item_money_basic_3.json.txt" />
+     <None Include="Assets\Spine\Item\SilverCoin\item_money_basic_2.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\spine-unity\Assets\examples\dragon\data\dragon.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\N\fever_bonus_n.atlas.txt" />
+     <None Include="Assets\Resources\Texture\InGameUI\RightButton\ingame_ui_inputkey_right.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\spine-unity\Assets\examples\goblins\data\goblins.json.txt" />
+     <None Include="Assets\Spine\UI\HP_Bar\life_bar_cursor.json.txt" />
+     <None Include="Assets\Spine\UI\Fever\S\item_fever_s.json.txt" />
+     <None Include="Assets\spine-unity\Assets\Spine\Shaders\SkeletonLit.shader" />
+     <None Include="Assets\Spine\Engine\pc_engine_red.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Readme.txt" />
+     <None Include="Assets\Spine\Obstacle\Cloud\bg_object_s_cloud.json.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

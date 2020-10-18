@@ -1,0 +1,12 @@
+
+bg_end_word.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_end_word_2
+  rotate: false
+  xy: 2, 2
+  size: 600, 99
+  orig: 600, 103
+  offset: 0, 3
+  index: -1

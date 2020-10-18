@@ -1,0 +1,42 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "logodisplay_logo2", "bone": "root", "attachment": "logodisplay_logo2" },
+	{ "name": "logodisplay_logo1", "bone": "root", "attachment": "logodisplay_logo1" }
+],
+"skins": {
+	"default": {
+		"logodisplay_logo1": {
+			"logodisplay_logo1": { "width": 720, "height": 1280 }
+		},
+		"logodisplay_logo2": {
+			"logodisplay_logo2": { "width": 720, "height": 1280 }
+		}
+	}
+},
+"animations": {
+	"logo": {
+		"slots": {
+			"logodisplay_logo1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.64, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.2, "color": "ffffffff" },
+					{ "time": 3.84, "color": "ffffff00" }
+				]
+			},
+			"logodisplay_logo2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.16, "color": "ffffff00" },
+					{ "time": 4.8, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 7.36, "color": "ffffffff" },
+					{ "time": 8, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

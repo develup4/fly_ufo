@@ -1,0 +1,45 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "root2", "bone": "root", "color": "ffffff00", "attachment": "ingame_ui_inputkey_left_off" },
+	{ "name": "root", "bone": "root", "attachment": "ingame_ui_inputkey_left_on" }
+],
+"skins": {
+	"default": {
+		"root": {
+			"ingame_ui_inputkey_left_on": { "width": 150, "height": 150 }
+		},
+		"root2": {
+			"ingame_ui_inputkey_left_off": { "width": 150, "height": 150 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"inputkey_off": {
+		"slots": {
+			"root": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"inputkey_on": {
+		"slots": {
+			"root2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"root": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

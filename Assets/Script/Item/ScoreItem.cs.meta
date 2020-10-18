@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4d0948a993d422548b51bf78b74d0069
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - scoreItem1: {fileID: 100000, guid: 9015b2e8b0f12b4458ecc8795abebee5, type: 2}
+  - scoreItem2: {fileID: 100000, guid: 4ed88e67e2ad6d4418d4d0fe35890944, type: 2}
+  - scoreItem3: {fileID: 100000, guid: 9a4c7bf8dc3d972418596beddfca7436, type: 2}
+  - scoreItem4: {fileID: 100000, guid: 3c1fa786c86e81043b23a74c6e6136bc, type: 2}
+  - scoreItem5: {fileID: 100000, guid: a585d81d2ba6b8f46b8cf1c5c71b4427, type: 2}
+  - scoreItem6: {fileID: 100000, guid: 8991737a41082d449a9d8ee2e5e87af8, type: 2}
+  - scoreItem7: {fileID: 100000, guid: 2ebbda4812367614784092900af19b86, type: 2}
+  - scoreItem8: {fileID: 100000, guid: 6d371247e361d204c8026a1a28843879, type: 2}
+  - scoreItem9: {fileID: 100000, guid: dc80c84360a171446ab67adbf9b6d1d3, type: 2}
+  - scoreItem10: {fileID: 100000, guid: 2b44e9bff4060f040872aa19628ce709, type: 2}
+  - scoreItem11: {fileID: 100000, guid: 70175d6dfb6f37a4eb80586b7d7daeb9, type: 2}
+  - scoreItem12: {fileID: 100000, guid: 9f1b0f780d278fa46ab166ee4de78e29, type: 2}
+  - scoreItem13: {fileID: 100000, guid: fbf1ef178640a83428f0e2f08098dabc, type: 2}
+  - scoreItem14: {fileID: 100000, guid: 81dfbd134d7f1cf4f84a4bae1d117827, type: 2}
+  - scoreItem15: {fileID: 100000, guid: d891c6f8e126d53479d418ff5ef31df4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

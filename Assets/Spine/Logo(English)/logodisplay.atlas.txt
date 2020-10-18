@@ -1,0 +1,19 @@
+
+logodisplay.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TeamXY_rogo
+  rotate: false
+  xy: 2, 2
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+logodisplay_logo1
+  rotate: false
+  xy: 724, 2
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1

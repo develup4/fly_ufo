@@ -1,0 +1,124 @@
+
+item_fever_s.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+item_fever_s_1
+  rotate: false
+  xy: 2, 11
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_10
+  rotate: false
+  xy: 279, 11
+  size: 22, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_11
+  rotate: false
+  xy: 253, 11
+  size: 24, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_12
+  rotate: false
+  xy: 224, 11
+  size: 27, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_13
+  rotate: false
+  xy: 193, 11
+  size: 29, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_14
+  rotate: false
+  xy: 159, 11
+  size: 32, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_15
+  rotate: false
+  xy: 123, 11
+  size: 34, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_16
+  rotate: false
+  xy: 84, 11
+  size: 37, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_17
+  rotate: false
+  xy: 43, 11
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_2
+  rotate: true
+  xy: 46, 7
+  size: 2, 26
+  orig: 39, 50
+  offset: 0, 10
+  index: -1
+item_fever_s_3
+  rotate: false
+  xy: 383, 26
+  size: 4, 35
+  orig: 39, 50
+  offset: 0, 7
+  index: -1
+item_fever_s_4
+  rotate: true
+  xy: 2, 2
+  size: 7, 42
+  orig: 39, 50
+  offset: 0, 4
+  index: -1
+item_fever_s_5
+  rotate: false
+  xy: 372, 16
+  size: 9, 45
+  orig: 39, 50
+  offset: 0, 2
+  index: -1
+item_fever_s_6
+  rotate: false
+  xy: 358, 13
+  size: 12, 48
+  orig: 39, 50
+  offset: 0, 1
+  index: -1
+item_fever_s_7
+  rotate: false
+  xy: 342, 11
+  size: 14, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_8
+  rotate: false
+  xy: 324, 11
+  size: 16, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+item_fever_s_9
+  rotate: false
+  xy: 303, 11
+  size: 19, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,12 @@
+
+bg_object_s_cloud.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_object_s_cloud
+  rotate: false
+  xy: 2, 2
+  size: 450, 282
+  orig: 450, 282
+  offset: 0, 0
+  index: -1

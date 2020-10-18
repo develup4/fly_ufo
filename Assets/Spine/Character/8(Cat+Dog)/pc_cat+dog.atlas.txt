@@ -1,0 +1,40 @@
+
+pc_cat+dog.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_cat_face_1_(1920x1080)
+  rotate: false
+  xy: 279, 81
+  size: 187, 141
+  orig: 187, 141
+  offset: 0, 0
+  index: -1
+pc_cat_face_2_(1920x1080)
+  rotate: false
+  xy: 468, 81
+  size: 187, 141
+  orig: 187, 141
+  offset: 0, 0
+  index: -1
+pc_cat_face_3_(1920x1080)
+  rotate: false
+  xy: 657, 81
+  size: 187, 141
+  orig: 187, 141
+  offset: 0, 0
+  index: -1
+pc_dog_animation(1920x1080)
+  rotate: false
+  xy: 279, 40
+  size: 113, 39
+  orig: 113, 39
+  offset: 0, 0
+  index: -1
+pc_dog_body(1920x1080)
+  rotate: true
+  xy: 2, 2
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1

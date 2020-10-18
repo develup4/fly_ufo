@@ -1,0 +1,54 @@
+
+pc_owl+penguin.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_owl_face_1_(1920x1080)
+  rotate: false
+  xy: 279, 92
+  size: 164, 130
+  orig: 164, 130
+  offset: 0, 0
+  index: -1
+pc_owl_face_2_(1920x1080)_4
+  rotate: false
+  xy: 445, 92
+  size: 164, 130
+  orig: 164, 130
+  offset: 0, 0
+  index: -1
+pc_owl_face_3_(1920x1080)_4
+  rotate: false
+  xy: 611, 92
+  size: 164, 130
+  orig: 164, 130
+  offset: 0, 0
+  index: -1
+pc_penguin_animation_1_(1920x1080)
+  rotate: false
+  xy: 279, 5
+  size: 205, 85
+  orig: 210, 92
+  offset: 2, 3
+  index: -1
+pc_penguin_animation_2_(1920x1080)
+  rotate: false
+  xy: 777, 136
+  size: 197, 86
+  orig: 201, 91
+  offset: 2, 2
+  index: -1
+pc_penguin_animation_3_(1920x1080)
+  rotate: false
+  xy: 486, 10
+  size: 190, 80
+  orig: 194, 85
+  offset: 2, 3
+  index: -1
+pc_penguin_body(1920x1080)
+  rotate: true
+  xy: 2, 2
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1

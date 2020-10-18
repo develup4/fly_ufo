@@ -1,0 +1,19 @@
+
+ingame_ui_inputkey_left.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+ingame_ui_inputkey_left_off
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ingame_ui_inputkey_left_on
+  rotate: false
+  xy: 154, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

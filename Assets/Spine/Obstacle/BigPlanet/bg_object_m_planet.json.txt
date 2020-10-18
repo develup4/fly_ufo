@@ -1,0 +1,71 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "bg_object_m_planet_1", "bone": "root", "attachment": "bg_object_m_planet_1" },
+	{ "name": "bg_object_m_planet_3", "bone": "root", "color": "ffffff00", "attachment": "bg_object_m_planet_3_20" },
+	{ "name": "bg_object_m_planet_2", "bone": "bone", "attachment": "bg_object_m_planet_2" }
+],
+"skins": {
+	"default": {
+		"bg_object_m_planet_1": {
+			"bg_object_m_planet_1": { "width": 300, "height": 300 }
+		},
+		"bg_object_m_planet_2": {
+			"bg_object_m_planet_2": { "width": 300, "height": 300 }
+		},
+		"bg_object_m_planet_3": {
+			"bg_object_m_planet_3_20": { "width": 400, "height": 400 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.4666, "angle": 270 },
+					{ "time": 2.6666, "angle": 180 },
+					{ "time": 4.0888, "angle": 90 },
+					{ "time": 5.3333, "angle": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 431.81 },
+					{ "time": 2.6666, "angle": -180 },
+					{ "time": 4, "angle": -90.62 },
+					{ "time": 5.3333, "angle": 0 }
+				]
+			}
+		},
+		"slots": {
+			"bg_object_m_planet_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3555, "color": "ffffff39" },
+					{ "time": 0.6666, "color": "ffffff78" },
+					{ "time": 1.0222, "color": "ffffffc0" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6888, "color": "ffffffc0" },
+					{ "time": 2.0444, "color": "ffffff78" },
+					{ "time": 2.4, "color": "ffffff39" },
+					{ "time": 2.6666, "color": "ffffff00" },
+					{ "time": 3.0222, "color": "ffffff39" },
+					{ "time": 3.3333, "color": "ffffff78" },
+					{ "time": 3.6888, "color": "ffffffc0" },
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.3555, "color": "ffffffc0" },
+					{ "time": 4.7111, "color": "ffffff78" },
+					{ "time": 5.0666, "color": "ffffff39" },
+					{ "time": 5.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,26 @@
+
+bg_object_m_planet.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_object_m_planet_1
+  rotate: false
+  xy: 391, 88
+  size: 300, 299
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+bg_object_m_planet_2
+  rotate: false
+  xy: 693, 124
+  size: 284, 263
+  orig: 300, 300
+  offset: 5, 10
+  index: -1
+bg_object_m_planet_3_20
+  rotate: false
+  xy: 2, 2
+  size: 387, 385
+  orig: 400, 400
+  offset: 8, 0
+  index: -1

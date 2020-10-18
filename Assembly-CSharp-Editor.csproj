@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E6C6D043-12BA-2A62-070F-DEEAE3346E75}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\BMFontReader.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\ComponentSelector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHandles.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHelp.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIJson.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIMenu.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUISettings.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUISnap.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\SpriteSelector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UICameraEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UICameraTool.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIFontInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIFontMaker.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIGridEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIInputEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelTool.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIRectEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIRootEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UISliderEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UITableEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UITextureInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UITexturePacker.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+     <Compile Include="Assets\spine-unity\Assets\Spine\Editor\AtlasAssetInspector.cs" />
+     <Compile Include="Assets\spine-unity\Assets\Spine\Editor\Menus.cs" />
+     <Compile Include="Assets\spine-unity\Assets\Spine\Editor\SkeletonAnimationInspector.cs" />
+     <Compile Include="Assets\spine-unity\Assets\Spine\Editor\SkeletonComponentInspector.cs" />
+     <Compile Include="Assets\spine-unity\Assets\Spine\Editor\SkeletonDataAssetInspector.cs" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Spine\Character\18(Owl+Alpaca)\pc_owl+alpaca.atlas.txt" />
+     <None Include="Assets\Spine\Character\12(Dog+Alpaca)\pc_dog+alpaca.json.txt" />
+     <None Include="Assets\Spine\Character\21(OwlSet)\pc_owl.json.txt" />
+     <None Include="Assets\NGUI\ReadMe - 3.0.8 f7.txt" />
+     <None Include="Assets\Spine\Item\BigSilverCoin\item_money_special_1.json.txt" />
+     <None Include="Assets\Spine\UI\BoostButtonLeft\ingame_ui_inputkey_left.atlas.txt" />
+     <None Include="Assets\Spine\Character\18(Owl+Alpaca)\pc_owl+alpaca.json.txt" />
+     <None Include="Assets\Spine\Character\28(PendaSet)\pc_penda.atlas.txt" />
+     <None Include="Assets\Spine\Obstacle\AirBalloon\bg_object_sm_airballoon.json.txt" />
+     <None Include="Assets\Spine\Character\15(Dog+Owl)\pc_dog+owl.atlas.txt" />
+     <None Include="Assets\Spine\Obstacle\Plane\bg_object_m_plane.json.txt" />
+     <None Include="Assets\Spine\Character\15(Dog+Owl)\pc_dog+owl.json.txt" />
+     <None Include="Assets\Spine\Character\30(Penguin+Alpaca)\pc_penguin+alpaca.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\O\item_fever_o.json.txt" />
+     <None Include="Assets\Spine\Character\5(Alpaca+Penguin)\pc_alpaca+penguin.json.txt" />
+     <None Include="Assets\Spine\Character\31(Penguin+Cat)\pc_penguin+cat.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (SoftClip).shader" />
+     <None Include="Assets\Spine\Character\32(Penguin+Dog)\penguin+dog.json.txt" />
+     <None Include="Assets\Spine\Character\7(CatSet)\pc_cat.json.txt" />
+     <None Include="Assets\Spine\Character\13(Dog+Cat)\pc_dog+cat.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\spine-unity\Assets\examples\goblins\data\goblins.atlas.txt" />
+     <None Include="Assets\Spine\Character\22(Owl+Penda)\pc_owl+penda.json.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Releases Notes.txt" />
+     <None Include="Assets\Spine\UI\Fever\S\item_fever_s.atlas.txt" />
+     <None Include="Assets\Spine\Character\11(Cat+Penguin)\pc_cat+penguin.json.txt" />
+     <None Include="Assets\Spine\Character\20(Owl+Dog)\pc_owl+dog.json.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
+     <None Include="Assets\Spine\UI\BoostButtonLeft\ingame_ui_inputkey_left.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Spine\Character\17(Dog+Penguin)\pc_dog+penguin.json.txt" />
+     <None Include="Assets\Spine\Character\26(Penda+Dog)\pc_penda+dog.json.txt" />
+     <None Include="Assets\Spine\Item\GoldCoin\item_money_basic_3.atlas.txt" />
+     <None Include="Assets\Spine\Character\20(Owl+Dog)\pc_owl+dog.atlas.txt" />
+     <None Include="Assets\Spine\Title\titledisplay.atlas.txt" />
+     <None Include="Assets\Spine\Obstacle\SmallPlanet\bg_object_s_planet.json.txt" />
+     <None Include="Assets\Spine\Obstacle\SmallPlanet\bg_object_s_planet.atlas.txt" />
+     <None Include="Assets\Spine\Character\12(Dog+Alpaca)\pc_dog+alpaca.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Spine\Obstacle\Ruins\bg_object_sm_junk.json.txt" />
+     <None Include="Assets\Spine\Character\34(Penguin+Penda)\pc_penguin+penda.json.txt" />
+     <None Include="Assets\Resources\Texture\InGameUI\LeftButton\ingame_ui_inputkey_left.json.txt" />
+     <None Include="Assets\Spine\Character\9(Cat+Owl)\pc_cat+owl.json.txt" />
+     <None Include="Assets\Spine\Title\titledisplay.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Meteor\bg_object_m_meteor.json.txt" />
+     <None Include="Assets\Spine\Character\29(Penda+Penguin)\pc_penda+penguin.atlas.txt" />
+     <None Include="Assets\Spine\Item\BigGoldCoin\item_money_special_2.atlas.txt" />
+     <None Include="Assets\Spine\Logo\logodisplay.json.txt" />
+     <None Include="Assets\Spine\Character\35(PenguinSet)\pc_penguin.json.txt" />
+     <None Include="Assets\Spine\GameOver\bg_end_word.atlas.txt" />
+     <None Include="Assets\Spine\Character\33(Penguin+Owl)\pc_penguin+owl.atlas.txt" />
+     <None Include="Assets\Spine\Title(English)\titledisplay.json.txt" />
+     <None Include="Assets\Spine\UI\Fever\N\fever_bonus_n.json.txt" />
+     <None Include="Assets\Spine\Effect\FeverEffect\flower.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Spine\UI\Fever\U\item_fever_u.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
+     <None Include="Assets\Spine\Character\29(Penda+Penguin)\pc_penda+penguin.json.txt" />
+     <None Include="Assets\Spine\Character\16(Dog+Penda)\pc_dog+penda.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Ruins\bg_object_sm_junk.atlas.txt" />
+     <None Include="Assets\Spine\GameOver\bg_end_word.json.txt" />
+     <None Include="Assets\Spine\StartingPoint\Launcher\skeleton.atlas.txt" />
+     <None Include="Assets\Spine\Character\8(Cat+Dog)\pc_cat+dog.json.txt" />
+     <None Include="Assets\Spine\Engine\pc_engine_red.json.txt" />
+     <None Include="Assets\Spine\Obstacle\BigPlanet\bg_object_m_planet.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Plane\bg_object_m_plane.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\Spine\Item\BronzeCoin\item_moeny_basic_1.json.txt" />
+     <None Include="Assets\Spine\Character\25(Penda+Cat)\pc_penda+cat.json.txt" />
+     <None Include="Assets\spine-unity\Assets\examples\spineboy\data\spineboy.json.txt" />
+     <None Include="Assets\Spine\StartingPoint\Launcher\skeleton.json.txt" />
+     <None Include="Assets\Spine\Character\5(Alpaca+Penguin)\pc_alpaca+penguin.atlas.txt" />
+     <None Include="Assets\Spine\Character\11(Cat+Penguin)\pc_cat+penguin.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Spine\UI\BoostButtonRight\ingame_ui_inputkey_right.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Meteor\bg_object_m_meteor.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Spine\Character\24(Penda+Alpaca)\pc_penda+alpaca.atlas.txt" />
+     <None Include="Assets\Spine\Logo\logodisplay.atlas.txt" />
+     <None Include="Assets\Spine\Title(English)\titledisplay.atlas.txt" />
+     <None Include="Assets\Spine\Logo(English)\logodisplay.json.txt" />
+     <None Include="Assets\Spine\Character\4(Alpaca+Penda)\pc_alpaca+penda.atlas.txt" />
+     <None Include="Assets\Spine\Effect\FeverEffect\flower.atlas.txt" />
+     <None Include="Assets\Spine\Character\26(Penda+Dog)\pc_penda+dog.atlas.txt" />
+     <None Include="Assets\Spine\Character\10(Cat+Penda)\pc_cat+penda.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Spine\StartingPoint\CountDown\skeleton.json.txt" />
+     <None Include="Assets\Spine\Character\28(PendaSet)\pc_penda.json.txt" />
+     <None Include="Assets\Spine\Character\3(Alpaca+Owl)\pc_alpaca+owl.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\Spine\Character\7(CatSet)\pc_cat.atlas.txt" />
+     <None Include="Assets\Spine\Character\21(OwlSet)\pc_owl.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Spine\Character\3(Alpaca+Owl)\pc_alpaca+owl.json.txt" />
+     <None Include="Assets\Spine\Character\31(Penguin+Cat)\pc_penguin+cat.json.txt" />
+     <None Include="Assets\Spine\StartingPoint\CountDown\skeleton.atlas.txt" />
+     <None Include="Assets\Spine\Character\0(AlpacaSet)\skeleton.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Cloud\bg_object_s_cloud.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Spine\Obstacle\BigPlanet\bg_object_m_planet.atlas.txt" />
+     <None Include="Assets\Spine\Obstacle\AirBalloon\bg_object_sm_airballoon.atlas.txt" />
+     <None Include="Assets\Spine\Character\27(Penda+Owl)\pc_penda+owl.atlas.txt" />
+     <None Include="Assets\Spine\Logo(English)\logodisplay.atlas.txt" />
+     <None Include="Assets\Spine\Character\25(Penda+Cat)\pc_penda+cat.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\U\item_fever_u.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Spine\UI\Fever\O\item_fever_o.atlas.txt" />
+     <None Include="Assets\Spine\Character\33(Penguin+Owl)\pc_penguin+owl.json.txt" />
+     <None Include="Assets\spine-unity\Assets\examples\dragon\data\dragon.json.txt" />
+     <None Include="Assets\Spine\Character\16(Dog+Penda)\pc_dog+penda.atlas.txt" />
+     <None Include="Assets\Spine\UI\BoostButtonRight\ingame_ui_inputkey_right.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Spine\Character\14(DogSet)\pc_dog.atlas.txt" />
+     <None Include="Assets\Spine\Character\13(Dog+Cat)\pc_dog+cat.json.txt" />
+     <None Include="Assets\Spine\Character\1(Alpaca+Cat)\pc_alpaca+cat.atlas.txt" />
+     <None Include="Assets\Spine\Character\9(Cat+Owl)\pc_cat+owl.atlas.txt" />
+     <None Include="Assets\Spine\Character\2(Alpaca+Dog)\pc_alpaca+dog.atlas.txt" />
+     <None Include="Assets\Spine\Character\6(Cat+Alpaca)\pc_cat+alpaca.json.txt" />
+     <None Include="Assets\Spine\Character\4(Alpaca+Penda)\pc_alpaca+penda.json.txt" />
+     <None Include="Assets\spine-unity\Assets\Spine\Shaders\Skeleton.shader" />
+     <None Include="Assets\Spine\Character\2(Alpaca+Dog)\pc_alpaca+dog.json.txt" />
+     <None Include="Assets\Spine\Item\SilverCoin\item_money_basic_2.json.txt" />
+     <None Include="Assets\Spine\Character\22(Owl+Penda)\pc_owl+penda.atlas.txt" />
+     <None Include="Assets\Spine\Character\17(Dog+Penguin)\pc_dog+penguin.atlas.txt" />
+     <None Include="Assets\Spine\Character\6(Cat+Alpaca)\pc_cat+alpaca.atlas.txt" />
+     <None Include="Assets\Spine\Character\19(Owl+Cat)\pc_owl+cat.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\B\fever_bonus_b.json.txt" />
+     <None Include="Assets\Spine\Item\BigGoldCoin\item_money_special_2.json.txt" />
+     <None Include="Assets\spine-unity\Assets\examples\spineboy\data\spineboy.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\B\fever_bonus_b.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\Spine\Character\0(AlpacaSet)\skeleton.atlas.txt" />
+     <None Include="Assets\Spine\Item\BigSilverCoin\item_money_special_1.atlas.txt" />
+     <None Include="Assets\Spine\Item\BronzeCoin\item_moeny_basic_1.atlas.txt" />
+     <None Include="Assets\Spine\UI\HP_Bar\life_bar_cursor.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Spine\Character\19(Owl+Cat)\pc_owl+cat.json.txt" />
+     <None Include="Assets\Resources\Texture\InGameUI\RightButton\ingame_ui_inputkey_right.atlas.txt" />
+     <None Include="Assets\Spine\Character\32(Penguin+Dog)\penguin+dog.atlas.txt" />
+     <None Include="Assets\Resources\Texture\InGameUI\LeftButton\ingame_ui_inputkey_left.atlas.txt" />
+     <None Include="Assets\Spine\Item\GoldCoin\item_money_basic_3.json.txt" />
+     <None Include="Assets\Spine\Character\24(Penda+Alpaca)\pc_penda+alpaca.json.txt" />
+     <None Include="Assets\Spine\Character\1(Alpaca+Cat)\pc_alpaca+cat.json.txt" />
+     <None Include="Assets\Spine\Item\SilverCoin\item_money_basic_2.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\Spine\Character\10(Cat+Penda)\pc_cat+penda.json.txt" />
+     <None Include="Assets\Spine\Character\14(DogSet)\pc_dog.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Spine\Character\35(PenguinSet)\pc_penguin.atlas.txt" />
+     <None Include="Assets\spine-unity\Assets\examples\dragon\data\dragon.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\N\fever_bonus_n.atlas.txt" />
+     <None Include="Assets\Resources\Texture\InGameUI\RightButton\ingame_ui_inputkey_right.json.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Spine\Character\23(Owl+Penguin)\pc_owl+penguin.json.txt" />
+     <None Include="Assets\Spine\Character\34(Penguin+Penda)\pc_penguin+penda.atlas.txt" />
+     <None Include="Assets\Spine\Character\27(Penda+Owl)\pc_penda+owl.json.txt" />
+     <None Include="Assets\spine-unity\Assets\examples\goblins\data\goblins.json.txt" />
+     <None Include="Assets\Spine\UI\HP_Bar\life_bar_cursor.json.txt" />
+     <None Include="Assets\Spine\Character\8(Cat+Dog)\pc_cat+dog.atlas.txt" />
+     <None Include="Assets\Spine\UI\Fever\S\item_fever_s.json.txt" />
+     <None Include="Assets\Spine\Character\23(Owl+Penguin)\pc_owl+penguin.atlas.txt" />
+     <None Include="Assets\spine-unity\Assets\Spine\Shaders\SkeletonLit.shader" />
+     <None Include="Assets\Spine\Engine\pc_engine_red.atlas.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Readme.txt" />
+     <None Include="Assets\Spine\Character\30(Penguin+Alpaca)\pc_penguin+alpaca.json.txt" />
+     <None Include="Assets\Spine\Obstacle\Cloud\bg_object_s_cloud.json.txt" />
+ <Reference Include="JMOAssets">
+ <HintPath>Assets\JMO Assets\Editor\JMOAssets.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{1C05FE10-4D34-BD28-7E00-5E637E8CC963}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

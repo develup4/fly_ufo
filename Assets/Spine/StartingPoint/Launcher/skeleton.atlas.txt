@@ -1,0 +1,33 @@
+
+skeleton.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_startobject_launcher_2_ani_0
+  rotate: false
+  xy: 2, 194
+  size: 50, 190
+  orig: 50, 190
+  offset: 0, 0
+  index: -1
+bg_startobject_launcher_2_ani_1
+  rotate: false
+  xy: 2, 2
+  size: 50, 190
+  orig: 50, 190
+  offset: 0, 0
+  index: -1
+bg_startobject_launcher_2_ani_2
+  rotate: false
+  xy: 54, 194
+  size: 50, 190
+  orig: 50, 190
+  offset: 0, 0
+  index: -1
+bg_startobject_launcher_2_ani_3
+  rotate: false
+  xy: 54, 2
+  size: 50, 190
+  orig: 50, 190
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,81 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bg_start_count_1", "bone": "root", "attachment": "bg_start_count_1" },
+	{ "name": "bg_start_count_2", "bone": "root", "attachment": "bg_start_count_2" },
+	{ "name": "bg_start_count_3", "bone": "root", "attachment": "bg_start_count_3" },
+	{ "name": "bg_start_word", "bone": "root", "attachment": "bg_start_word" }
+],
+"skins": {
+	"default": {
+		"bg_start_count_1": {
+			"bg_start_count_1": { "width": 140, "height": 160 }
+		},
+		"bg_start_count_2": {
+			"bg_start_count_2": { "width": 140, "height": 160 }
+		},
+		"bg_start_count_3": {
+			"bg_start_count_3": { "width": 140, "height": 160 }
+		},
+		"bg_start_word": {
+			"bg_start_word": { "width": 350, "height": 200 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"animation": {
+		"slots": {
+			"bg_start_count_3": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.2222,
+						"color": "ffffffff",
+						"curve": [ 0, 0.74, 0.772, 1 ]
+					},
+					{ "time": 0.4444, "color": "ffffff00" }
+				]
+			},
+			"bg_start_count_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8888, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.1111,
+						"color": "ffffffff",
+						"curve": [ 0, 0.74, 0.772, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"bg_start_count_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4444, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.6666,
+						"color": "ffffffff",
+						"curve": [ 0, 0.74, 0.772, 1 ]
+					},
+					{ "time": 0.8888, "color": "ffffff00" }
+				]
+			},
+			"bg_start_word": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.7777,
+						"color": "ffffffff",
+						"curve": [ 0, 0.74, 0.772, 1 ]
+					},
+					{ "time": 2, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

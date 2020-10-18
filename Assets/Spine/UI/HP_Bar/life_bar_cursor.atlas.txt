@@ -1,0 +1,19 @@
+
+life_bar_cursor.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+life_bar_cursor_1
+  rotate: false
+  xy: 39, 8
+  size: 35, 4
+  orig: 35, 10
+  offset: 0, 3
+  index: -1
+life_bar_cursor_2
+  rotate: false
+  xy: 2, 2
+  size: 35, 10
+  orig: 35, 10
+  offset: 0, 0
+  index: -1

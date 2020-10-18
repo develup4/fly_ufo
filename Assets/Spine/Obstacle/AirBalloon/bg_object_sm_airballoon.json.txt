@@ -1,0 +1,45 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "fire", "parent": "root", "length": 27.24, "x": -0.14, "y": -171.04, "rotation": 90 }
+],
+"slots": [
+	{ "name": "bg_object_sm_animation_2", "bone": "fire", "attachment": "bg_object_sm_animation_2" },
+	{ "name": "bg_object_sm_animation_1", "bone": "fire", "attachment": "bg_object_sm_animation_1" },
+	{ "name": "bg_object_sm_airballoon_1", "bone": "root", "attachment": "bg_object_sm_airballoon_1" }
+],
+"skins": {
+	"default": {
+		"bg_object_sm_airballoon_1": {
+			"bg_object_sm_airballoon_1": { "width": 300, "height": 450 }
+		},
+		"bg_object_sm_animation_1": {
+			"bg_object_sm_animation_1": { "x": 14.56, "rotation": -90, "width": 29, "height": 36 }
+		},
+		"bg_object_sm_animation_2": {
+			"bg_object_sm_animation_2": { "x": 9.18, "rotation": -90, "width": 32, "height": 21 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"animation": {
+		"slots": {
+			"bg_object_sm_animation_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"bg_object_sm_animation_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

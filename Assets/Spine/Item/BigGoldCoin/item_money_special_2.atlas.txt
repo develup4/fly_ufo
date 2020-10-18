@@ -1,0 +1,33 @@
+
+item_money_special_2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+item_money_special_2_1
+  rotate: false
+  xy: 2, 37
+  size: 148, 147
+  orig: 150, 150
+  offset: 2, 1
+  index: -1
+item_money_special_2_2
+  rotate: false
+  xy: 152, 37
+  size: 140, 147
+  orig: 150, 150
+  offset: 3, 1
+  index: -1
+item_money_special_2_3
+  rotate: true
+  xy: 2, 2
+  size: 33, 144
+  orig: 150, 150
+  offset: 60, 3
+  index: -1
+item_money_special_2_4
+  rotate: false
+  xy: 294, 37
+  size: 139, 147
+  orig: 150, 150
+  offset: 2, 1
+  index: -1

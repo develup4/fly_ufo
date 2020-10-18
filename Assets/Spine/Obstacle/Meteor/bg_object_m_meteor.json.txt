@@ -1,0 +1,65 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bg_object_m_meteor", "bone": "root", "attachment": "bg_object_m_meteor" },
+	{ "name": "bg_object_m_meteor_animation_1", "bone": "root", "attachment": "bg_object_m_meteor_animation_1" },
+	{ "name": "bg_object_m_meteor_animation_2", "bone": "root", "attachment": "bg_object_m_meteor_animation_2" }
+],
+"skins": {
+	"default": {
+		"bg_object_m_meteor": {
+			"bg_object_m_meteor": { "width": 300, "height": 300 }
+		},
+		"bg_object_m_meteor_animation_1": {
+			"bg_object_m_meteor_animation_1": { "width": 300, "height": 300 }
+		},
+		"bg_object_m_meteor_animation_2": {
+			"bg_object_m_meteor_animation_2": { "width": 300, "height": 300 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"animation": {
+		"slots": {
+			"bg_object_m_meteor": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bg_object_m_meteor_animation_1": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0, 0.49, 0.781, 0.99 ]
+					},
+					{
+						"time": 0.4,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"bg_object_m_meteor_animation_2": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.313, 0, 0.781, 0.99 ]
+					},
+					{
+						"time": 0.4,
+						"color": "ffffffff",
+						"curve": [ 0.232, 0, 1, 0.49 ]
+					},
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

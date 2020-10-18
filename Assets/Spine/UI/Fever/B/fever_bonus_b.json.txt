@@ -1,0 +1,199 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "fever_bonus_b", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b" },
+	{ "name": "fever_bonus_b_1", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_1" },
+	{ "name": "fever_bonus_b_2", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_2" },
+	{ "name": "fever_bonus_b_3", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_3" },
+	{ "name": "fever_bonus_b_4", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_4" },
+	{ "name": "fever_bonus_b_5", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_5" },
+	{ "name": "fever_bonus_b_6", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_6" },
+	{ "name": "fever_bonus_b_7", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_7" },
+	{ "name": "fever_bonus_b_8", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_8" },
+	{ "name": "fever_bonus_b_9", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_9" },
+	{ "name": "fever_bonus_b_10", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_10" },
+	{ "name": "fever_bonus_b_11", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_11" },
+	{ "name": "fever_bonus_b_12", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_12" },
+	{ "name": "fever_bonus_b_13", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_13" },
+	{ "name": "fever_bonus_b_14", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_14" },
+	{ "name": "fever_bonus_b_15", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_15" },
+	{ "name": "fever_bonus_b_16", "bone": "root", "color": "ffffff00", "attachment": "fever_bonus_b_16" }
+],
+"skins": {
+	"default": {
+		"fever_bonus_b": {
+			"fever_bonus_b": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_1": {
+			"fever_bonus_b_1": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_10": {
+			"fever_bonus_b_10": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_11": {
+			"fever_bonus_b_11": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_12": {
+			"fever_bonus_b_12": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_13": {
+			"fever_bonus_b_13": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_14": {
+			"fever_bonus_b_14": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_15": {
+			"fever_bonus_b_15": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_16": {
+			"fever_bonus_b_16": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_2": {
+			"fever_bonus_b_2": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_3": {
+			"fever_bonus_b_3": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_4": {
+			"fever_bonus_b_4": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_5": {
+			"fever_bonus_b_5": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_6": {
+			"fever_bonus_b_6": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_7": {
+			"fever_bonus_b_7": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_8": {
+			"fever_bonus_b_8": { "width": 40, "height": 50 }
+		},
+		"fever_bonus_b_9": {
+			"fever_bonus_b_9": { "width": 40, "height": 50 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"animation": {
+		"slots": {
+			"fever_bonus_b_9": {
+				"color": [
+					{ "time": 0.4666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_16": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_15": {
+				"color": [
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_2": {
+				"color": [
+					{ "time": 0.9333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_3": {
+				"color": [
+					{ "time": 0.8666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_7": {
+				"color": [
+					{ "time": 0.6, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_12": {
+				"color": [
+					{ "time": 0.2666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_10": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_5": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_8": {
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_14": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_6": {
+				"color": [
+					{ "time": 0.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_4": {
+				"color": [
+					{ "time": 0.8, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8666, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b_11": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"fever_bonus_b": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"fever_bonus_b_13": {
+				"color": [
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"off": {
+		"slots": {
+			"fever_bonus_b": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"on": {
+		"slots": {
+			"fever_bonus_b_16": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

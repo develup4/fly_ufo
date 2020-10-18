@@ -1,0 +1,28 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bg_end_word_2", "bone": "root", "color": "ffffff00", "attachment": "bg_end_word_2" }
+],
+"skins": {
+	"default": {
+		"bg_end_word_2": {
+			"bg_end_word_2": { "width": 600, "height": 103 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"bg_end_word_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6, "color": "ffffff00" },
+					{ "time": 6.6666, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

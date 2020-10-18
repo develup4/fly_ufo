@@ -1,0 +1,33 @@
+
+skeleton.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_start_count_1
+  rotate: true
+  xy: 636, 103
+  size: 98, 159
+  orig: 140, 160
+  offset: 21, 1
+  index: -1
+bg_start_count_2
+  rotate: false
+  xy: 353, 42
+  size: 139, 159
+  orig: 140, 160
+  offset: 0, 0
+  index: -1
+bg_start_count_3
+  rotate: false
+  xy: 494, 43
+  size: 140, 158
+  orig: 140, 160
+  offset: 0, 1
+  index: -1
+bg_start_word
+  rotate: false
+  xy: 2, 2
+  size: 349, 199
+  orig: 350, 200
+  offset: 0, 0
+  index: -1

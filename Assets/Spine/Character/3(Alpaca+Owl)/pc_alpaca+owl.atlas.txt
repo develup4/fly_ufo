@@ -1,0 +1,47 @@
+
+pc_alpaca+owl.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_alpaca_face_1_(1920x1080)
+  rotate: false
+  xy: 571, 80
+  size: 144, 138
+  orig: 144, 138
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_2_(1920x1080)
+  rotate: false
+  xy: 279, 79
+  size: 144, 139
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_3_(1920x1080)
+  rotate: false
+  xy: 425, 79
+  size: 144, 139
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+pc_owl_animation_2_(1920x1080)
+  rotate: false
+  xy: 717, 149
+  size: 54, 69
+  orig: 56, 70
+  offset: 2, 0
+  index: -1
+pc_owl_animation_3_(1920x1080)
+  rotate: false
+  xy: 279, 7
+  size: 55, 70
+  orig: 56, 70
+  offset: 0, 0
+  index: -1
+pc_owl_body_2_(1920x1080)
+  rotate: true
+  xy: 2, 2
+  size: 216, 275
+  orig: 220, 275
+  offset: 3, 0
+  index: -1

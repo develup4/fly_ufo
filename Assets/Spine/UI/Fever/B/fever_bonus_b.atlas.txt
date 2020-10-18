@@ -1,0 +1,124 @@
+
+fever_bonus_b.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+fever_bonus_b
+  rotate: false
+  xy: 2, 11
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_1
+  rotate: true
+  xy: 54, 7
+  size: 2, 37
+  orig: 40, 50
+  offset: 0, 5
+  index: -1
+fever_bonus_b_10
+  rotate: false
+  xy: 257, 11
+  size: 25, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_11
+  rotate: false
+  xy: 228, 11
+  size: 27, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_12
+  rotate: false
+  xy: 196, 11
+  size: 30, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_13
+  rotate: false
+  xy: 162, 11
+  size: 32, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_14
+  rotate: false
+  xy: 125, 11
+  size: 35, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_15
+  rotate: false
+  xy: 86, 11
+  size: 37, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_16
+  rotate: false
+  xy: 44, 11
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_2
+  rotate: false
+  xy: 392, 14
+  size: 5, 47
+  orig: 40, 50
+  offset: 0, 1
+  index: -1
+fever_bonus_b_3
+  rotate: true
+  xy: 2, 2
+  size: 7, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_4
+  rotate: false
+  xy: 380, 11
+  size: 10, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_5
+  rotate: false
+  xy: 366, 11
+  size: 12, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_6
+  rotate: false
+  xy: 349, 11
+  size: 15, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_7
+  rotate: false
+  xy: 330, 11
+  size: 17, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_8
+  rotate: false
+  xy: 308, 11
+  size: 20, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+fever_bonus_b_9
+  rotate: false
+  xy: 284, 11
+  size: 22, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1

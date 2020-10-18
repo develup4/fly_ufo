@@ -1,0 +1,33 @@
+
+pc_engine_red.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+PC_ENGINE_red_1
+  rotate: true
+  xy: 2, 17
+  size: 40, 80
+  orig: 40, 80
+  offset: 0, 0
+  index: -1
+PC_ENGINE_red_2
+  rotate: true
+  xy: 84, 19
+  size: 38, 61
+  orig: 40, 64
+  offset: 1, 3
+  index: -1
+PC_ENGINE_red_3
+  rotate: true
+  xy: 147, 32
+  size: 25, 41
+  orig: 29, 48
+  offset: 2, 2
+  index: -1
+PC_ENGINE_red_4
+  rotate: true
+  xy: 2, 2
+  size: 13, 25
+  orig: 17, 32
+  offset: 2, 2
+  index: -1

@@ -1,0 +1,54 @@
+
+titledisplay.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+12
+  rotate: true
+  xy: 1993, 418
+  size: 408, 50
+  orig: 412, 54
+  offset: 2, 2
+  index: -1
+123
+  rotate: false
+  xy: 2, 54
+  size: 408, 50
+  orig: 412, 54
+  offset: 2, 2
+  index: -1
+1234
+  rotate: false
+  xy: 2, 2
+  size: 408, 50
+  orig: 412, 54
+  offset: 2, 2
+  index: -1
+title_background
+  rotate: true
+  xy: 2, 106
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+title_name
+  rotate: false
+  xy: 1284, 371
+  size: 707, 455
+  orig: 707, 455
+  offset: 0, 0
+  index: -1
+title_object1
+  rotate: true
+  xy: 1284, 9
+  size: 360, 498
+  orig: 360, 499
+  offset: 0, 0
+  index: -1
+title_object2
+  rotate: false
+  xy: 1784, 155
+  size: 171, 214
+  orig: 171, 214
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,30 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "logodisplay_logo1", "bone": "root", "attachment": "TeamXY_rogo" }
+],
+"skins": {
+	"default": {
+		"logodisplay_logo1": {
+			"TeamXY_rogo": { "width": 720, "height": 1280 },
+			"logodisplay_logo1": { "width": 720, "height": 1280 }
+		}
+	}
+},
+"animations": {
+	"logo": {
+		"slots": {
+			"logodisplay_logo1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.6675, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.3379, "color": "ffffffff" },
+					{ "time": 4.0055, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

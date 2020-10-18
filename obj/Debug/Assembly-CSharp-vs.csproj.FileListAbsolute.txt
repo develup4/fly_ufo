@@ -1,0 +1,11 @@
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\Temp\bin\Debug\UnityEditor.dll
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\Temp\bin\Debug\UnityEngine.dll
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\Temp\bin\Debug\nunit.framework.dll
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\obj\Debug\Assembly-CSharp.dll
+C:\Users\HAM\Desktop\FlyUFO\NewFlyUFO\obj\Debug\Assembly-CSharp.pdb

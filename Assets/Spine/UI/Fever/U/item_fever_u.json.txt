@@ -1,0 +1,365 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "item_fever_n_1", "bone": "root", "attachment": "item_fever_n_1" },
+	{ "name": "item_fever_n_2", "bone": "root", "attachment": "item_fever_n_2" },
+	{ "name": "item_fever_n_3", "bone": "root", "attachment": "item_fever_n_3" },
+	{ "name": "item_fever_n_4", "bone": "root", "attachment": "item_fever_n_4" },
+	{ "name": "item_fever_n_5", "bone": "root", "attachment": "item_fever_n_5" },
+	{ "name": "item_fever_n_6", "bone": "root", "attachment": "item_fever_n_6" },
+	{ "name": "item_fever_n_7", "bone": "root", "attachment": "item_fever_n_7" },
+	{ "name": "item_fever_n_8", "bone": "root", "attachment": "item_fever_n_8" },
+	{ "name": "item_fever_n_9", "bone": "root", "attachment": "item_fever_n_9" },
+	{ "name": "item_fever_n_10", "bone": "root", "attachment": "item_fever_n_10" },
+	{ "name": "item_fever_n_11", "bone": "root", "attachment": "item_fever_n_11" },
+	{ "name": "item_fever_n_12", "bone": "root", "attachment": "item_fever_n_12" },
+	{ "name": "item_fever_n_13", "bone": "root", "attachment": "item_fever_n_13" },
+	{ "name": "item_fever_n_14", "bone": "root", "attachment": "item_fever_n_14" },
+	{ "name": "item_fever_n_15", "bone": "root", "attachment": "item_fever_n_15" },
+	{ "name": "item_fever_n_16", "bone": "root", "attachment": "item_fever_n_16" },
+	{ "name": "item_fever_n_17", "bone": "root", "attachment": "item_fever_n_17" }
+],
+"skins": {
+	"default": {
+		"item_fever_n_1": {
+			"item_fever_n_1": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_10": {
+			"item_fever_n_10": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_11": {
+			"item_fever_n_11": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_12": {
+			"item_fever_n_12": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_13": {
+			"item_fever_n_13": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_14": {
+			"item_fever_n_14": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_15": {
+			"item_fever_n_15": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_16": {
+			"item_fever_n_16": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_17": {
+			"item_fever_n_17": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_2": {
+			"item_fever_n_2": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_3": {
+			"item_fever_n_3": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_4": {
+			"item_fever_n_4": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_5": {
+			"item_fever_n_5": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_6": {
+			"item_fever_n_6": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_7": {
+			"item_fever_n_7": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_8": {
+			"item_fever_n_8": { "width": 42, "height": 50 }
+		},
+		"item_fever_n_9": {
+			"item_fever_n_9": { "width": 42, "height": 50 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"animation": {
+		"slots": {
+			"item_fever_n_2": {
+				"color": [
+					{ "time": 0.9375, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_17": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0625, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"item_fever_n_5": {
+				"color": [
+					{ "time": 0.75, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8125, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_4": {
+				"color": [
+					{ "time": 0.8125, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.875, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_12": {
+				"color": [
+					{ "time": 0.3125, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.375, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_15": {
+				"color": [
+					{ "time": 0.125, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1875, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_6": {
+				"color": [
+					{ "time": 0.6875, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.75, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_16": {
+				"color": [
+					{ "time": 0.0625, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.125, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_10": {
+				"color": [
+					{ "time": 0.4375, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_9": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5625, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_8": {
+				"color": [
+					{ "time": 0.5625, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.625, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_7": {
+				"color": [
+					{ "time": 0.625, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6875, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_13": {
+				"color": [
+					{ "time": 0.25, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3125, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_3": {
+				"color": [
+					{ "time": 0.875, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9375, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_14": {
+				"color": [
+					{ "time": 0.1875, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.25, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_11": {
+				"color": [
+					{ "time": 0.375, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4375, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"off": {
+		"slots": {
+			"item_fever_n_11": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_9": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_17": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"item_fever_n_4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_12": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_15": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_16": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_10": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_13": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_14": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_8": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"on": {
+		"slots": {
+			"item_fever_n_11": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_9": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_17": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"item_fever_n_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_12": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_15": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_16": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_10": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_13": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_14": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"item_fever_n_8": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

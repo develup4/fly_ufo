@@ -1,0 +1,119 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "planet", "parent": "root" },
+	{ "name": "satelite(hide)", "parent": "root" },
+	{ "name": "satellite", "parent": "root" },
+	{ "name": "rotate", "parent": "satellite", "x": -86.27, "y": -112.29 },
+	{ "name": "rotate(hide)", "parent": "satelite(hide)", "x": -86.27, "y": -112.29 },
+	{ "name": "shadow", "parent": "planet", "length": 42.52, "x": 1.9, "y": -1.69, "rotation": -48.84 }
+],
+"slots": [
+	{ "name": "bg_object_s_planet_1_3(hide)", "bone": "rotate(hide)", "attachment": "bg_object_s_planet_1_3" },
+	{ "name": "bg_object_s_planet_1", "bone": "planet", "attachment": "bg_object_s_planet_1" },
+	{ "name": "bg_object_s_planet_1_2", "bone": "shadow", "attachment": "bg_object_s_planet_1_2" },
+	{ "name": "bg_object_s_planet_1_3", "bone": "rotate", "attachment": "bg_object_s_planet_1_3" }
+],
+"skins": {
+	"default": {
+		"bg_object_s_planet_1": {
+			"bg_object_s_planet_1": { "width": 375, "height": 375 }
+		},
+		"bg_object_s_planet_1_2": {
+			"bg_object_s_planet_1_2": { "x": 13.45, "y": -0.15, "rotation": 48.84, "width": 375, "height": 375 }
+		},
+		"bg_object_s_planet_1_3": {
+			"bg_object_s_planet_1_3": { "width": 104, "height": 104 }
+		},
+		"bg_object_s_planet_1_3(hide)": {
+			"bg_object_s_planet_1_3": { "width": 104, "height": 104 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 363.84 },
+					{ "time": 0.7777, "angle": 413.84 },
+					{ "time": 1.5555, "angle": 472.41 },
+					{ "time": 2.3333, "angle": 183.84 },
+					{ "time": 3.1111, "angle": 240.09 },
+					{ "time": 3.8888, "angle": 299.56 },
+					{ "time": 4.6666, "angle": 363.84 }
+				]
+			},
+			"planet": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.1666, "angle": -90 },
+					{ "time": 2.3333, "angle": 180 },
+					{ "time": 3.5, "angle": 90 },
+					{ "time": 4.6666, "angle": 0 }
+				]
+			},
+			"satelite(hide)": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -10,
+						"y": -10,
+						"curve": [ 0.282, 0.71, 0.75, 1 ]
+					},
+					{ "time": 1.0476, "x": -65, "y": -65, "curve": "stepped" },
+					{
+						"time": 2.619,
+						"x": 260,
+						"y": 260,
+						"curve": [ 0.46, 0, 0.754, 0.22 ]
+					},
+					{ "time": 3.6666, "x": 200, "y": 200 }
+				]
+			},
+			"satellite": {
+				"translate": [
+					{
+						"time": 1.0476,
+						"x": -65,
+						"y": -65,
+						"curve": [ 0.455, 0, 0.538, 1 ]
+					},
+					{ "time": 2.619, "x": 260, "y": 260 }
+				]
+			},
+			"rotate(hide)": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.2222, "angle": 120 },
+					{ "time": 2.4444, "angle": 240 },
+					{ "time": 3.6666, "angle": 360 }
+				]
+			},
+			"rotate": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.2222, "angle": 120 },
+					{ "time": 2.4444, "angle": 240 },
+					{ "time": 3.6666, "angle": 360 }
+				]
+			}
+		},
+		"slots": {
+			"bg_object_s_planet_1_3(hide)": {
+				"color": [
+					{ "time": 1.0476, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.619, "color": "ffffffff" }
+				]
+			},
+			"bg_object_s_planet_1_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.0476, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.619, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

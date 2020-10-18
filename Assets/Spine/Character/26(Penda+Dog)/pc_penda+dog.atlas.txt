@@ -1,0 +1,40 @@
+
+pc_penda+dog.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_dog_animation(1920x1080)
+  rotate: false
+  xy: 279, 54
+  size: 113, 39
+  orig: 113, 39
+  offset: 0, 0
+  index: -1
+pc_dog_body(1920x1080)
+  rotate: true
+  xy: 2, 2
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1
+pc_panda_face_1_(1920x1080)
+  rotate: false
+  xy: 279, 95
+  size: 169, 127
+  orig: 169, 127
+  offset: 0, 0
+  index: -1
+pc_panda_face_2_(1920x1080)
+  rotate: false
+  xy: 450, 95
+  size: 167, 127
+  orig: 167, 127
+  offset: 0, 0
+  index: -1
+pc_panda_face_3_(1920x1080)
+  rotate: false
+  xy: 619, 95
+  size: 167, 127
+  orig: 167, 127
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,33 @@
+
+item_money_basic_2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+item_money_basic_2_1
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+item_money_basic_2_2
+  rotate: false
+  xy: 54, 2
+  size: 47, 50
+  orig: 50, 50
+  offset: 1, 0
+  index: -1
+item_money_basic_2_3
+  rotate: false
+  xy: 152, 4
+  size: 11, 48
+  orig: 50, 50
+  offset: 20, 1
+  index: -1
+item_money_basic_2_4
+  rotate: false
+  xy: 103, 2
+  size: 47, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

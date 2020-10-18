@@ -1,0 +1,40 @@
+
+penguin+dog.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_dog_animation(1920x1080)
+  rotate: false
+  xy: 279, 35
+  size: 113, 39
+  orig: 113, 39
+  offset: 0, 0
+  index: -1
+pc_dog_body(1920x1080)
+  rotate: true
+  xy: 2, 2
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1
+pc_penguin_face_1_(1920x1080)
+  rotate: false
+  xy: 279, 76
+  size: 164, 146
+  orig: 164, 147
+  offset: 0, 1
+  index: -1
+pc_penguin_face_2_(1920x1080)
+  rotate: false
+  xy: 445, 76
+  size: 164, 146
+  orig: 164, 147
+  offset: 0, 1
+  index: -1
+pc_penguin_face_3_(1920x1080)
+  rotate: false
+  xy: 611, 76
+  size: 164, 146
+  orig: 164, 147
+  offset: 0, 1
+  index: -1

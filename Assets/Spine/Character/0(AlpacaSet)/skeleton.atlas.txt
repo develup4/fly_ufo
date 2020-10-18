@@ -1,0 +1,40 @@
+
+skeleton.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+pc_alpaca_animation_1(1920x1080)
+  rotate: false
+  xy: 279, 19
+  size: 188, 62
+  orig: 188, 65
+  offset: 0, 0
+  index: -1
+pc_alpaca_body_2-1(1920x1080)
+  rotate: true
+  xy: 2, 2
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_1_(1920x1080)
+  rotate: false
+  xy: 571, 84
+  size: 144, 138
+  orig: 144, 138
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_2_(1920x1080)
+  rotate: false
+  xy: 279, 83
+  size: 144, 139
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_3_(1920x1080)
+  rotate: false
+  xy: 425, 83
+  size: 144, 139
+  orig: 144, 140
+  offset: 0, 0
+  index: -1

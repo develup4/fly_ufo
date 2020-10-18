@@ -1,0 +1,102 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bg_object_m_plane_REVERSE", "bone": "root", "attachment": "bg_object_m_plane_REVERSE" },
+	{ "name": "bg_object_m_plane_animation_reverse", "bone": "root", "attachment": "bg_object_m_plane_animation_reverse" },
+	{ "name": "bg_object_m_plane", "bone": "root", "attachment": "bg_object_m_plane" },
+	{ "name": "bg_object_m_plane_animation", "bone": "root", "attachment": "bg_object_m_plane_animation" }
+],
+"skins": {
+	"default": {
+		"bg_object_m_plane": {
+			"bg_object_m_plane": { "width": 450, "height": 282 }
+		},
+		"bg_object_m_plane_REVERSE": {
+			"bg_object_m_plane_REVERSE": { "width": 450, "height": 282 }
+		},
+		"bg_object_m_plane_animation": {
+			"bg_object_m_plane_animation": { "x": -26, "y": 28.99, "width": 318, "height": 78 }
+		},
+		"bg_object_m_plane_animation_reverse": {
+			"bg_object_m_plane_animation_reverse": { "x": 24.87, "y": 29.1, "width": 318, "height": 78 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"normal": {
+		"slots": {
+			"bg_object_m_plane": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bg_object_m_plane_animation_reverse": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"bg_object_m_plane_REVERSE": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"bg_object_m_plane_animation": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0, 0.75, 0.75, 1 ]
+					},
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.8333,
+						"color": "ffffffff",
+						"curve": [ 0, 0.75, 0.75, 1 ]
+					},
+					{ "time": 1.0333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"reverse": {
+		"slots": {
+			"bg_object_m_plane": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"bg_object_m_plane_animation_reverse": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0, 0.74, 0.75, 1 ]
+					},
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.8333,
+						"color": "ffffffff",
+						"curve": [ 0, 0.74, 0.75, 1 ]
+					},
+					{ "time": 1.0333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			},
+			"bg_object_m_plane_REVERSE": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bg_object_m_plane_animation": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

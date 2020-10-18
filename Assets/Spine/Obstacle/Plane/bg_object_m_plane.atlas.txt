@@ -1,0 +1,33 @@
+
+bg_object_m_plane.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_object_m_plane
+  rotate: false
+  xy: 2, 162
+  size: 450, 282
+  orig: 450, 282
+  offset: 0, 0
+  index: -1
+bg_object_m_plane_REVERSE
+  rotate: false
+  xy: 454, 162
+  size: 450, 282
+  orig: 450, 282
+  offset: 0, 0
+  index: -1
+bg_object_m_plane_animation
+  rotate: false
+  xy: 2, 82
+  size: 318, 78
+  orig: 318, 78
+  offset: 0, 0
+  index: -1
+bg_object_m_plane_animation_reverse
+  rotate: false
+  xy: 2, 2
+  size: 317, 78
+  orig: 318, 78
+  offset: 1, 0
+  index: -1

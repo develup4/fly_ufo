@@ -1,0 +1,40 @@
+
+pc_dog+alpaca.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_alpaca_animation_1(1920x1080)
+  rotate: false
+  xy: 655, 192
+  size: 188, 62
+  orig: 188, 65
+  offset: 0, 0
+  index: -1
+pc_alpaca_body_2-1(1920x1080)
+  rotate: true
+  xy: 2, 34
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1
+pc_dog_face_1_(1920x1080)
+  rotate: false
+  xy: 279, 129
+  size: 186, 125
+  orig: 186, 126
+  offset: 0, 1
+  index: -1
+pc_dog_face_2_(1920x1080)
+  rotate: false
+  xy: 279, 2
+  size: 186, 125
+  orig: 186, 126
+  offset: 0, 1
+  index: -1
+pc_dog_face_3_(1920x1080)
+  rotate: false
+  xy: 467, 129
+  size: 186, 125
+  orig: 186, 126
+  offset: 0, 1
+  index: -1

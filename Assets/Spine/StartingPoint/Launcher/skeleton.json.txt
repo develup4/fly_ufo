@@ -1,0 +1,58 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bg_startobject_launcher_2_ani_0", "bone": "root", "attachment": "bg_startobject_launcher_2_ani_0" },
+	{ "name": "root", "bone": "root", "color": "ffffff00", "attachment": "bg_startobject_launcher_2_ani_1" },
+	{ "name": "root2", "bone": "root", "color": "ffffff00", "attachment": "bg_startobject_launcher_2_ani_2" },
+	{ "name": "root3", "bone": "root", "color": "ffffff00", "attachment": "bg_startobject_launcher_2_ani_3" }
+],
+"skins": {
+	"default": {
+		"bg_startobject_launcher_2_ani_0": {
+			"bg_startobject_launcher_2_ani_0": { "width": 50, "height": 190 }
+		},
+		"root": {
+			"bg_startobject_launcher_2_ani_1": { "width": 50, "height": 190 }
+		},
+		"root2": {
+			"bg_startobject_launcher_2_ani_2": { "width": 50, "height": 190 }
+		},
+		"root3": {
+			"bg_startobject_launcher_2_ani_3": { "width": 50, "height": 190 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"animation": {
+		"slots": {
+			"bg_startobject_launcher_2_ani_0": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"root": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffffff" }
+				]
+			},
+			"root3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7441, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"root2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4961, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

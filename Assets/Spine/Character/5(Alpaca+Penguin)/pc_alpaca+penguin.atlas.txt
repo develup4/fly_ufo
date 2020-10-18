@@ -1,0 +1,54 @@
+
+pc_alpaca+penguin.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pc_alpaca_face_1_(1920x1080)
+  rotate: false
+  xy: 678, 85
+  size: 144, 138
+  orig: 144, 138
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_2_(1920x1080)
+  rotate: false
+  xy: 824, 84
+  size: 144, 139
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+pc_alpaca_face_3_(1920x1080)
+  rotate: false
+  xy: 486, 2
+  size: 144, 139
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+pc_penguin_animation_1_(1920x1080)
+  rotate: false
+  xy: 279, 138
+  size: 205, 85
+  orig: 210, 92
+  offset: 2, 3
+  index: -1
+pc_penguin_animation_2_(1920x1080)
+  rotate: false
+  xy: 279, 50
+  size: 197, 86
+  orig: 201, 91
+  offset: 2, 2
+  index: -1
+pc_penguin_animation_3_(1920x1080)
+  rotate: false
+  xy: 486, 143
+  size: 190, 80
+  orig: 194, 85
+  offset: 2, 3
+  index: -1
+pc_penguin_body(1920x1080)
+  rotate: true
+  xy: 2, 3
+  size: 220, 275
+  orig: 220, 275
+  offset: 0, 0
+  index: -1

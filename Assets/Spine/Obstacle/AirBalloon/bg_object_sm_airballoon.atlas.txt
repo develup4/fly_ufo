@@ -1,0 +1,26 @@
+
+bg_object_sm_airballoon.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_object_sm_airballoon_1
+  rotate: false
+  xy: 2, 40
+  size: 300, 450
+  orig: 300, 450
+  offset: 0, 0
+  index: -1
+bg_object_sm_animation_1
+  rotate: false
+  xy: 2, 2
+  size: 29, 36
+  orig: 29, 36
+  offset: 0, 0
+  index: -1
+bg_object_sm_animation_2
+  rotate: false
+  xy: 304, 469
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1

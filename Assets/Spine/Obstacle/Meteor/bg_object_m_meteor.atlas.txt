@@ -1,0 +1,26 @@
+
+bg_object_m_meteor.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_object_m_meteor
+  rotate: false
+  xy: 606, 54
+  size: 267, 245
+  orig: 300, 300
+  offset: 1, 25
+  index: -1
+bg_object_m_meteor_animation_1
+  rotate: false
+  xy: 2, 2
+  size: 300, 297
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+bg_object_m_meteor_animation_2
+  rotate: false
+  xy: 304, 2
+  size: 300, 297
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
