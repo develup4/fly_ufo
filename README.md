@@ -3,3 +3,6 @@
 
 도큐먼트에 자료있으니 리드미 잘작성하기
 플레이스토어에 올리고 여기 적기
+
+https://gist.github.com/ikaruce/29ddbedbdbb04f670ec7
+https://youtu.be/z9FUXDoYJjE
